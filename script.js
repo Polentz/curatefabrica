@@ -97,7 +97,6 @@ function openOnClick(number, className, cssClassName) {
         document.getElementsByClassName(className)[0].classList.add(cssClassName);
         window.setTimeout(() => document.getElementsByClassName(className)[0].classList.add(cssClassName), 400);
         window.setTimeout(() => document.getElementsByClassName(className)[0].classList.add(cssClassName), 800);
-        setTimeout(function () { location.href = "2017.html" }, 1000);
     });
 }
 
