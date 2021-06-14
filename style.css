@@ -142,7 +142,7 @@ text-decoration: none;
   100% { -webkit-transform: translate(50%, 2%); transform: translate(50%, 2%); }
 }
 
-@-webkit-keyframes opening {
+/* @-webkit-keyframes opening {
 0% { opacity: 1; }
 100% { opacity: 0; }
 }
@@ -164,7 +164,7 @@ pointer-events: none;
 opacity: 0;
 -webkit-animation: opening 2s ease-in-out 1;
         animation: opening 2s ease-in-out 1;
-}
+} */
 
 .container {
 -webkit-transition: opacity 0.5s ease-out;
@@ -883,9 +883,9 @@ svg.logo-line-2 {
 body {
     cursor: default;
 }
-.opening {
+/* .opening {
   display:none;
-}
+} */
 .logo-type-item {
   width: 84vw;
 }
