@@ -750,11 +750,12 @@ display: -ms-flexbox;
 display: flex;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
 -webkit-box-pack: center;
     -ms-flex-pack: center;
         justify-content: center;
+align-items: center;
 z-index: 5;
 }
 
@@ -766,6 +767,10 @@ color: #000;
 
 .button a:visited {
 color: #000;
+}
+
+.button a:first-child {
+  margin-right: 20px;
 }
 
 .nav-before {
@@ -804,6 +809,9 @@ display: none;
   white-space: nowrap; 
   -o-text-overflow: ellipsis; 
      text-overflow: ellipsis;
+}
+.page-label h2 {
+  width: 80%;
 }
 .button {
   right: 5vw;
@@ -913,6 +921,9 @@ body {
 .menu-labels > .nav-label {
   border-bottom: solid 0.5px #000;
   text-align: center;
+}
+.page-label h2 {
+  width: 100%;
 }
 .page-title {
   display: none;
